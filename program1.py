@@ -1,10 +1,7 @@
-probAbsentFriday=0.03
-probFriday=0.2
+def solve():
+  probAbsentFriday=0.03
+  probFriday=0.2
+  bayesResult = (probAbsentFriday / probFriday)
+  return (bayesResult * 100)
 
-# bayes Formula
-#p(A|F)=p(F| A)p(A)/p(F)
-# p(A|F) =p(A ∩ F)/ p(F)
-
-
-bayesResult = (probAbsentFriday / probFriday)
-print(bayesResult * 100)
+print(solve())
