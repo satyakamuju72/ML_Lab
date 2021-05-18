@@ -4,4 +4,6 @@ def solve():
   bayesResult = (probAbsentFriday / probFriday)
   return (bayesResult * 100)
 
+
+#Baye's Rule Application - Probability of a student absent on friday
 print(solve())
